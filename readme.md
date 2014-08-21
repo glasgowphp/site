@@ -17,7 +17,7 @@ If you insist on installing this locally, clone the repo and do:
 ```bash
 $ cd <folder name>
 $ composer install
-$ git submodule add git@github.com:strayobject/glasgowphp-content.git content
+$ git submodule init && git submodule update
 $ cp config/config.json.sample config/config.json
 ```
 
