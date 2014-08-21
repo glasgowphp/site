@@ -1,0 +1,69 @@
+{
+    "siteName": "Glasgow PHP",
+    "url": "http://glasgowphp.co.uk/",
+    "skin": {
+        "name": "glasgowphp",
+        "layout": "layout.php"
+    },
+    "pages": {
+        "extension": ".md",
+        "location": "content/page/"
+    },
+    "nav": {
+        "replace": {
+            "becomeaspeaker": "Become a Speaker",
+            "ourtalks": "Our Talks",
+            "contact": "Contact",
+            "about": "About/Agenda"
+        },
+        "exclude": [
+            "index",
+            "talks",
+            "becomeasponsor",
+            "404",
+            "sponsors"
+        ],
+        "attributes": {
+            "root": {
+                "id": "",
+                "class": "nav navbar-nav"
+            },
+            "parent": {
+                "class": ""
+            },
+            "child": {
+                "class": ""
+            },
+            "link": {
+                "class": ""
+            },
+            "label": {
+                "class": ""
+            }
+        }
+    },
+    "module": {
+        "news": {
+            "dir": "talks",
+            "page": "ourtalks"
+        },
+        "oAuthSignIn": {
+            "bitbucket": {
+                "key": "",
+                "secret": ""
+            },
+            "github": {
+                "key": "",
+                "secret": ""
+            },
+            "google": {
+                "key": "",
+                "secret": ""
+            },
+            "twitter": {
+                "key": "",
+                "secret": ""
+            }
+        }
+    }
+}

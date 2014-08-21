@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "mizzenlite\\module\\": "module/"
+        }
+    },
+    "require": {
+        "strayobject/mizzenlite": "0.*",
+        "michelf/php-markdown": "1.4",
+        "pfbc/pfbc": "3.1",
+        "lusitanian/oauth": "0.3",
+        "commonapi/exception": "dev-master"
+    },
+    "require-dev": {
+        "raveren/kint": "v0.9"
+    }
+}

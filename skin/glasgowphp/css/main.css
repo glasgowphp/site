@@ -1,0 +1,501 @@
+html {
+	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+  background-color: rgb(157,200,190);
+  font-family: 'latoregular', sans-serif !important;
+  color: rgb(255,255,255);
+  text-align: left;
+  min-height: 100%;
+  text-shadow: 0 1px 2px rgba(30,30,30,0.5);
+  margin-bottom: 60px;
+}
+
+body > .container {
+	padding: 1em 15px 0px;
+}
+
+img {
+    max-width:100%;
+}
+
+/*************************** TEXT FORMATTING ****************
+************************************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h1 {
+	font-size: 3.25em;
+	font-family: 'latolight';
+}
+
+h2 {
+	font-size: 1.3em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    color: rgba(250, 238, 103, 1);
+    color: rgb(255,204,0);
+    /*text-shadow: 0 1px 1px rgba(20,20,20,0.9);*/
+}
+
+h4 {
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.3em;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+}
+
+.content-right .container-box h1 {
+    font-size: 2em;
+    line-height: 1.7em;
+    color: rgb(130,75,160);
+}
+
+a {
+	color: rgb(0,124,133);
+    border: none;
+}
+
+a:hover {
+	color: rgb(39,139,67);
+}
+.main a {
+    text-shadow: none;
+}
+
+/*************************** CONTAINERS ********************
+************************************************************/
+
+.main-wrapper {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	padding: 0px 2%;
+	margin: 0 auto;
+}
+
+.main {
+	margin: 2% auto 0;
+}
+
+.content {
+	margin-bottom: 3em;
+	font-size: 1.4em;
+	width: 100%;
+}
+
+.content-left, .content-right {
+	position: relative;
+	float: left;
+}
+
+.content-left {
+	width: 65%;
+}
+
+.content-right {
+	margin-left: 7%;
+	width: 28%
+}
+
+.content-box, .box-attendees, .box-location, .box-sponsor {
+	padding: 20px;
+	background: rgba(10,10,10,0.2);
+	margin: 3% 0;
+}
+.content-box {
+    text-shadow:0 1px 1px rgba(30, 30, 30, 0.30);
+}
+
+.content-right .container-box {
+	margin-top: 6%;
+}
+
+.content-box h3 {
+    color:rgb(60,60,60);
+}
+
+.box-meta {
+    float: right;
+    width: 210px;
+	margin: 0px 0px 15px 30px;
+	padding: 14px 10px 5px;
+	background: rgba(255,204,0,0.6);
+	text-transform: uppercase;
+	font-size: 0.75em;
+ }
+
+ .box-meta p {
+    line-height: 0.9em;
+ }
+
+ .box-meta .speaker-list {
+    list-style:none;
+    padding-left:20px;
+ }
+
+ .box-meta .speaker-list li {
+    margin-top:3px;
+ }
+
+.box-meta .speaker-list img {
+    max-width:40px;
+}
+
+.box-attendees {
+ 	min-height: 130px;
+}
+
+.box-attendees .info {
+    float: right;
+    text-align: right;
+    width:24%;
+}
+
+.box-attendees ul {
+    float: left;
+    width: 75%;
+    list-style: none outside none;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+.box-attendees ul li {
+    display: inline-block;
+    width: 24%;
+    margin: 0.4%;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.box-attendees ul li img {
+    float: left;
+    margin-right: 5px;
+    width: 24px;
+}
+
+.info button {
+    background: rgb(39,139,67);
+	padding: 15px 10px;
+	border: none;
+	width: 210px;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(30,30,30,0.5);
+}
+
+.info button:hover {
+	background: rgba(255, 153, 0, 0.8);
+	-webkit-transition: background 1s ease-in-out;
+	-moz-transition: background 1s ease-in-out;
+	transition: background 1s ease-in-out;
+}
+
+.box-sponsor {
+    padding: 15px 0 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#footer p {
+	float: left;
+	font-size: 1em;
+	padding: 3px 0;
+}
+
+.footer {
+	padding: 1.25em 0;
+}
+
+.item-row {
+    padding-bottom:10px;
+    border-bottom:20px solid rgb(157, 200, 190);
+}
+
+/*************************** NAVBAR *************************
+************************************************************/
+
+.logo {
+	position: relative;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+.navbar {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar, .content, .footer {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.navbar-header, .navbar-collapse {
+	margin: 1em 0;
+	padding: 0 0 20px 0;
+}
+
+.navbar-brand {
+	font-size: 1.7em;
+	border: none !important;
+}
+
+.navbar-brand h1 {
+	margin: 3px 0em 0 2.5em;
+	font-size: 30px;
+	color: rgb(255,204,0);
+}
+
+.navbar-default .navbar-brand:focus {
+	color: rgba(0,124,133, 0.7);
+
+}
+
+.navbar-default, .navbar-default:focus {
+	background: none;
+}
+
+.navbar, .navbar-default, .navbar-fixed-top, .footer {
+	background: rgba(0,124,133,0.7);
+	border: none;
+}
+
+.nav, .navbar-nav {
+	margin: 8px 0;
+}
+
+.nav, .navbar-nav > li {
+	text-transform: uppercase;
+	font-family: 'latolight';
+}
+
+.nav, .navbar-nav > li > a:hover {
+	color: rgba(255,153,0, 0.7);
+	border-bottom: 3px solid rgb(255,204,0);
+	background: none !important;
+}
+
+.nav, .navbar-nav > li > a {
+  border-bottom: 3px solid transparent;
+  color: rgb(255,255,255) !important;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+  border-bottom: 3px solid rgb(255,255,255);
+  background: none;
+}
+
+/*************************** FORMS **************************
+************************************************************/
+form {
+    color:rgb(0,0,0);
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"],input[type="email"],input[type="url"],textarea {
+    width: 100%;
+}
+
+#becomeaspeaker {
+    position: relative;
+    padding-top: 30px;
+}
+
+#becomeaspeaker #element_becomeaspeaker-element-5 {
+    position: absolute;
+    right: 0.625em;
+    bottom: 65px;
+    width: 60%;
+}
+
+#becomeaspeaker #element_becomeaspeaker-element-5 textarea {
+    width: 100%;
+    height: 256px;
+    padding: 3px;
+}
+
+#becomeaspeaker .control-group {
+    width: 35%;
+}
+
+.form-actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.control-label {
+    color: rgb(255,204,0);
+}
+
+.form-actions input[type="submit"] {
+    background: rgb(39,139,67);
+    padding: 15px 10px;
+    border: none;
+    border-radius: 0;
+    width: 210px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(30,30,30,0.5);
+}
+
+.form-actions input[type="submit"]:hover {
+    background: rgba(255, 153, 0, 0.8);
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
+}
+
+/*************************** MEDIA QUERIES ******************
+************************************************************/
+
+@media screen and (min-width: 1024px) {
+	.nav {
+		float: right;
+	}
+
+	.navbar-nav > li {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.content-left, .content-right {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 766px) {
+	.navbar-collapse > li {
+		margin-left: 0px;
+	}
+
+	.navbar-collapse {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 3.25em;
+	}
+
+	.navbar-header {
+		padding: 0 0 20px 0;
+	}
+
+	.lead {
+	font-size: 0.8em !important;
+	}
+
+    #becomeaspeaker .control-group {
+        width: 100%;
+        float: left;
+    }
+
+    #becomeaspeaker #element_becomeaspeaker-element-5 {
+        position: relative;
+        float: left;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+
+    #becomeaspeaker-element-6 {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 2.25em;
+	}
+
+	.navbar {
+		padding: 0 0 15px;
+	}
+
+	.navbar-brand {
+		width: 100px;
+	}
+
+	.navbar-brand h1 {
+	    font-size: 25px !important;
+	    margin: -9px 0em 0px 2.5em !important;
+	}
+
+	.logo {
+	    margin: -8px 0px 0px !important;
+	}
+}
+
+ @media screen and (max-width: 360px) {
+ 	.box-attendees ul li {
+ 		display: list-item;
+        width:100%;
+ 	}
+
+ 	.info {
+ 		width: 100%;
+ 	}
+
+ 	.info button, #becomeaspeaker-element-6 {
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+
+ 	.box-meta {
+ 		width: 100%;
+ 	}
+
+ 	.box-meta p {
+ 		text-align: center;
+ 	}
+}
+
+/************************* TWITTER **************************
+************************************************************/
+
+.twitter-widget {
+    padding: 20px;
+}
+.info a {
+    color:inherit;
+}
+
+/************************* MAPS*** **************************
+************************************************************/
+.map {
+    width:100%;
+    height:500px;
+}
+div.olControlAttribution {
+    bottom:3px;
+}

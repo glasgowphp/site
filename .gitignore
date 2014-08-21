@@ -1,0 +1,7 @@
+composer.lock
+vendor/*
+var/*
+!.gitkeep
+config/*
+!config/*.sample
+*.sublime*
