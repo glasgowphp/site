@@ -38,9 +38,8 @@
 <?php
 foreach ($this->attendees as $attendee) {
     echo '<li>';
-        echo '<img src="'.$attendee->getImageLink().'" alt="'.$attendee->getName().'"/>';
-        echo '<a href="https://twitter.com/'.$attendee->getScreenName().'">';
-            echo $attendee->getName();
+        echo '<a href="https://twitter.com/'.$attendee->getScreenName().'" title="'.$attendee->getName().'">';
+            echo '<img src="'.$attendee->getImageLink().'" alt="'.$attendee->getName().'"/>';
         echo '</a>';
     echo'</li>';
 }

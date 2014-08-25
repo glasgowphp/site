@@ -124,7 +124,7 @@ a:hover {
 	margin-top: 6%;
 }
 
-.content-box h3 {
+.content-box h2, .content-box h3, .content-box h4 {
     color:rgb(60,60,60);
 }
 
@@ -184,7 +184,7 @@ a:hover {
 .box-attendees ul li img {
     float: left;
     margin-right: 5px;
-    width: 24px;
+    width: 40px;
 }
 
 .info button {
