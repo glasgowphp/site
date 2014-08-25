@@ -21,22 +21,22 @@ class OAuthSignInObserver extends Observer
      */
     public function run()
     {
+        $upcoming = (new NewsUpcoming(new NewsList()))->findNextPost();
+        $location = 'var/attendee/';
+        $file     = preg_replace('/[^a-zA-Z0-9-]/', '-', $upcoming->getPath());
+
         if ($this->getTriggeredEvent() == 'appRun') {
-            (new OAuthSignIn())->run();
+            (new OAuthSignIn())->run($location.$file);
         }
 
         if ($this->getTriggeredEvent() == 'beforeViewRender') {
-            $view     = $this->getTriggeredEventParams()['view'];
-            $upcoming = (new NewsUpcoming(new NewsList()))->findNextPost();
+            $view = $this->getTriggeredEventParams()['view'];
 
             if (!$upcoming) {
                 $view->attendees = [];
 
                 return;
             }
-
-            $location = 'var/attendee/';
-            $file     = preg_replace('/[^a-zA-Z0-9-]/', '-', $upcoming->getPath());
 
             try {
                 $attendeeRepository = (new AttendeeRepository())->jsonUnserialize(

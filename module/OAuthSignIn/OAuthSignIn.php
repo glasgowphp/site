@@ -16,7 +16,7 @@ class OAuthSignIn extends Base
     /**
      * @todo  refactor!
      */
-    public function run()
+    public function run($fileLocation)
     {
         $uriFactory = new UriFactory();
         $currentUri = $uriFactory->createFromSuperGlobalArray($_SERVER);
@@ -58,7 +58,7 @@ class OAuthSignIn extends Base
             /**
              * @todo  replace this with proper code && add attendee verification to eliminate duplicates
              */
-            $file = $this->getBag()->get('basePath')->path.'/var/attendee/file';
+            $file = $fileLocation;
             $data = [];
 
             if (is_readable($file)) {
