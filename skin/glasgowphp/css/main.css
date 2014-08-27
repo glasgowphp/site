@@ -1,7 +1,7 @@
 html {
-	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-	min-height: 100%;
-	position: relative;
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    min-height: 100%;
+    position: relative;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 body > .container {
-	padding: 1em 15px 0px;
+    padding: 1em 15px 0px;
 }
 
 img {
@@ -26,17 +26,17 @@ img {
 ************************************************************/
 
 h1, h2, h3, h4, h5, h6 {
-	text-transform: uppercase;
-	letter-spacing: 3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 h1 {
-	font-size: 3.25em;
-	font-family: 'latolight';
+    font-size: 3.25em;
+    font-family: 'latolight';
 }
 
 h2 {
-	font-size: 1.3em;
+    font-size: 1.3em;
     line-height: 1.5em;
     letter-spacing: 2px;
     color: rgba(250, 238, 103, 1);
@@ -50,8 +50,8 @@ h4 {
 
 p {
     font-size: 1.3em;
-	line-height: 1.5em;
-	letter-spacing: 0px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
 }
 
 .content-right .container-box h1 {
@@ -61,12 +61,12 @@ p {
 }
 
 a {
-	color: rgb(0,124,133);
+    color: rgb(0,124,133);
     border: none;
 }
 
 a:hover {
-	color: rgb(39,139,67);
+    color: rgb(39,139,67);
 }
 .main a {
     text-shadow: none;
@@ -76,52 +76,52 @@ a:hover {
 ************************************************************/
 
 .main-wrapper {
-	float: left;
-	position: relative;
-	width: 100%;
+    float: left;
+    position: relative;
+    width: 100%;
 }
 
 .container {
-	width: 90%;
-	padding: 0px 2%;
-	margin: 0 auto;
+    width: 90%;
+    padding: 0px 2%;
+    margin: 0 auto;
 }
 
 .main {
-	margin: 2% auto 0;
+    margin: 2% auto 0;
 }
 
 .content {
-	margin-bottom: 3em;
-	font-size: 1.4em;
-	width: 100%;
+    margin-bottom: 3em;
+    font-size: 1.4em;
+    width: 100%;
 }
 
 .content-left, .content-right {
-	position: relative;
-	float: left;
+    position: relative;
+    float: left;
 }
 
 .content-left {
-	width: 65%;
+    width: 65%;
 }
 
 .content-right {
-	margin-left: 7%;
-	width: 28%
+    margin-left: 7%;
+    width: 28%
 }
 
 .content-box, .box-attendees, .box-location, .box-sponsor {
-	padding: 20px;
-	background: rgba(10,10,10,0.2);
-	margin: 3% 0;
+    padding: 20px;
+    background: rgba(10,10,10,0.2);
+    margin: 3% 0;
 }
 .content-box {
     text-shadow:0 1px 1px rgba(30, 30, 30, 0.30);
 }
 
 .content-right .container-box {
-	margin-top: 6%;
+    margin-top: 6%;
 }
 
 .content-box h2, .content-box h3, .content-box h4 {
@@ -131,11 +131,11 @@ a:hover {
 .box-meta {
     float: right;
     width: 210px;
-	margin: 0px 0px 15px 30px;
-	padding: 14px 10px 5px;
-	background: rgba(255,204,0,0.6);
-	text-transform: uppercase;
-	font-size: 0.75em;
+    margin: 0px 0px 15px 30px;
+    padding: 14px 10px 5px;
+    background: rgba(255,204,0,0.6);
+    text-transform: uppercase;
+    font-size: 0.75em;
  }
 
  .box-meta p {
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .box-attendees {
- 	min-height: 130px;
+    min-height: 130px;
 }
 
 .box-attendees .info {
@@ -175,10 +175,14 @@ a:hover {
 
 .box-attendees ul li {
     display: inline-block;
-    width: 24%;
+    width: 10%;
     margin: 0.4%;
     padding: 5px;
     font-size: 1.3em;
+}
+
+.box-attendees ul li.empty {
+    width:100%;
 }
 
 .box-attendees ul li img {
@@ -189,18 +193,19 @@ a:hover {
 
 .info button {
     background: rgb(39,139,67);
-	padding: 15px 10px;
-	border: none;
-	width: 210px;
-	text-transform: uppercase;
-	text-shadow: 0 1px 2px rgba(30,30,30,0.5);
+    padding: 15px 10px;
+    border: none;
+    max-width: 210px;
+    width:100%;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(30,30,30,0.5);
 }
 
 .info button:hover {
-	background: rgba(255, 153, 0, 0.8);
-	-webkit-transition: background 1s ease-in-out;
-	-moz-transition: background 1s ease-in-out;
-	transition: background 1s ease-in-out;
+    background: rgba(255, 153, 0, 0.8);
+    -webkit-transition: background 1s ease-in-out;
+    -moz-transition: background 1s ease-in-out;
+    transition: background 1s ease-in-out;
 }
 
 .box-sponsor {
@@ -210,7 +215,7 @@ a:hover {
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #footer {
@@ -221,13 +226,13 @@ a:hover {
 }
 
 #footer p {
-	float: left;
-	font-size: 1em;
-	padding: 3px 0;
+    float: left;
+    font-size: 1em;
+    padding: 3px 0;
 }
 
 .footer {
-	padding: 1.25em 0;
+    padding: 1.25em 0;
 }
 
 .item-row {
@@ -239,65 +244,65 @@ a:hover {
 ************************************************************/
 
 .logo {
-	position: relative;
-	float: left;
-	margin: -8px 20px 0 0;
+    position: relative;
+    float: left;
+    margin: -8px 20px 0 0;
 }
 
 .navbar {
-	font-size: 16px;
-	font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .navbar, .content, .footer {
-	float: left;
-	position: relative;
-	width: 100%;
+    float: left;
+    position: relative;
+    width: 100%;
 }
 
 .navbar-header, .navbar-collapse {
-	margin: 1em 0;
-	padding: 0 0 20px 0;
+    margin: 1em 0;
+    padding: 0 0 20px 0;
 }
 
 .navbar-brand {
-	font-size: 1.7em;
-	border: none !important;
+    font-size: 1.7em;
+    border: none !important;
 }
 
 .navbar-brand h1 {
-	margin: 3px 0em 0 2.5em;
-	font-size: 30px;
-	color: rgb(255,204,0);
+    margin: 3px 0em 0 2.5em;
+    font-size: 30px;
+    color: rgb(255,204,0);
 }
 
 .navbar-default .navbar-brand:focus {
-	color: rgba(0,124,133, 0.7);
+    color: rgba(0,124,133, 0.7);
 
 }
 
 .navbar-default, .navbar-default:focus {
-	background: none;
+    background: none;
 }
 
 .navbar, .navbar-default, .navbar-fixed-top, .footer {
-	background: rgba(0,124,133,0.7);
-	border: none;
+    background: rgba(0,124,133,0.7);
+    border: none;
 }
 
 .nav, .navbar-nav {
-	margin: 8px 0;
+    margin: 8px 0;
 }
 
 .nav, .navbar-nav > li {
-	text-transform: uppercase;
-	font-family: 'latolight';
+    text-transform: uppercase;
+    font-family: 'latolight';
 }
 
 .nav, .navbar-nav > li > a:hover {
-	color: rgba(255,153,0, 0.7);
-	border-bottom: 3px solid rgb(255,204,0);
-	background: none !important;
+    color: rgba(255,153,0, 0.7);
+    border-bottom: 3px solid rgb(255,204,0);
+    background: none !important;
 }
 
 .nav, .navbar-nav > li > a {
@@ -376,44 +381,44 @@ input[type="text"],input[type="email"],input[type="url"],textarea {
 ************************************************************/
 
 @media screen and (min-width: 1024px) {
-	.nav {
-		float: right;
-	}
+    .nav {
+        float: right;
+    }
 
-	.navbar-nav > li {
-		margin-left: 20px;
-	}
+    .navbar-nav > li {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 800px) {
-	.content-left, .content-right {
-		width: 100%;
-		margin-left: 0;
-	}
+    .content-left, .content-right {
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
 @media screen and (min-width: 766px) {
-	.navbar-collapse > li {
-		margin-left: 0px;
-	}
+    .navbar-collapse > li {
+        margin-left: 0px;
+    }
 
-	.navbar-collapse {
-		float: none;
-	}
+    .navbar-collapse {
+        float: none;
+    }
 }
 
 @media screen and (max-width: 640px) {
-	h1 {
-		font-size: 3.25em;
-	}
+    h1 {
+        font-size: 3.25em;
+    }
 
-	.navbar-header {
-		padding: 0 0 20px 0;
-	}
+    .navbar-header {
+        padding: 0 0 20px 0;
+    }
 
-	.lead {
-	font-size: 0.8em !important;
-	}
+    .lead {
+    font-size: 0.8em !important;
+    }
 
     #becomeaspeaker .control-group {
         width: 100%;
@@ -431,53 +436,66 @@ input[type="text"],input[type="email"],input[type="url"],textarea {
     #becomeaspeaker-element-6 {
         margin-top: 25px;
     }
+
+    .box-attendees .info {
+        float: none;
+        clear:both;
+        width:100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
-	h1 {
-		font-size: 2.25em;
-	}
+    h1 {
+        font-size: 2.25em;
+    }
 
-	.navbar {
-		padding: 0 0 15px;
-	}
+    .navbar {
+        padding: 0 0 15px;
+    }
 
-	.navbar-brand {
-		width: 100px;
-	}
+    .navbar-brand {
+        width: 100px;
+    }
 
-	.navbar-brand h1 {
-	    font-size: 25px !important;
-	    margin: -9px 0em 0px 2.5em !important;
-	}
+    .navbar-brand h1 {
+        font-size: 25px !important;
+        margin: -9px 0em 0px 2.5em !important;
+    }
 
-	.logo {
-	    margin: -8px 0px 0px !important;
-	}
+    .logo {
+        margin: -8px 0px 0px !important;
+    }
+    .box-attendees .info {
+        float: none;
+        clear:both;
+        width:100%;
+    }
 }
 
  @media screen and (max-width: 360px) {
- 	.box-attendees ul li {
- 		display: list-item;
+    .box-attendees ul li {
+        display: list-item;
         width:100%;
- 	}
+    }
 
- 	.info {
- 		width: 100%;
- 	}
+    .box-attendees .info {
+        float: none;
+        clear:both;
+        width:100%;
+    }
 
- 	.info button, #becomeaspeaker-element-6 {
- 		width: 100%;
- 		text-align: center;
- 	}
+    .info button, #becomeaspeaker-element-6 {
+        width: 100%;
+        text-align: center;
+    }
 
- 	.box-meta {
- 		width: 100%;
- 	}
+    .box-meta {
+        width: 100%;
+    }
 
- 	.box-meta p {
- 		text-align: center;
- 	}
+    .box-meta p {
+        text-align: center;
+    }
 }
 
 /************************* TWITTER **************************

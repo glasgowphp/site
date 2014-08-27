@@ -45,7 +45,7 @@ foreach ($this->attendees as $attendee) {
 }
 
 if (!$this->attendees) {
-    echo '<li>The usual bunch.</li>';
+    echo '<li class="empty">The usual bunch.</li>';
 }
 ?>
         </ul>
