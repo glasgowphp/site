@@ -7,6 +7,10 @@
     RewriteCond %{REQUEST_FILENAME} !^(.+)\.jpeg$
     RewriteCond %{REQUEST_FILENAME} !^(.+)\.gif$
     RewriteCond %{REQUEST_FILENAME} !^(.+)\.ico$
+    RewriteCond %{REQUEST_FILENAME} !^(.+)\.eot$
+    RewriteCond %{REQUEST_FILENAME} !^(.+)\.svg$
+    RewriteCond %{REQUEST_FILENAME} !^(.+)\.ttf$
+    RewriteCond %{REQUEST_FILENAME} !^(.+)\.woff$
     RewriteRule  .? index.php [L]
 </IfModule>
 
