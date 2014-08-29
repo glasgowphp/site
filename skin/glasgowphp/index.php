@@ -52,11 +52,11 @@ if (!$this->attendees) {
         <div class="info">
             <a href="?oauth=go"><button>Confirm via Twitter</button></a>
             <br/><br/>
-            <a href="https://opentechcalendar.co.uk/event/1624-monthly-glasgowphp-meetup">
+            <a href="https://opentechcalendar.co.uk/event/1692-monthly-glasgowphp-meetup">
                 <button>Confirm on <br/>Open Tech Calendar</button>
             </a>
             <br/><br/>
-            <a href="http://www.eventbrite.co.uk/e/glasgowphp-monthly-tickets-12304453953">
+            <a href="https://www.eventbrite.co.uk/e/glasgowphp-monthly-tickets-12868607351">
                 <button>Confirm on Eventbrite</button>
             </a>
         </div>
@@ -68,7 +68,7 @@ if (!$this->attendees) {
     <h1>Location</h1>
     <h2>Find our venue:</h2>
     <div class="box-location">
-        <p>Top floor of Sir Alwyn Williams Building, Lilybank Gardens, Glasgow, G12 8QQ, Scotland</p>
+        <p>Top floor of Sir Alwyn Williams Building, 18 Lilybank Gardens, Glasgow, G12 8QQ, Scotland</p>
         <div id="map" class="map"></div>
     </div>
 </div>
