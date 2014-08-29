@@ -13,38 +13,6 @@ class NavItemHide
         $this->setExclude($exclude);
     }
 
-    // public function run()
-    // {
-    //     $params  = $this->getTriggeredEventParams();
-    //     $exclude = $this->getBag()->get('config')->nav->exclude;
-
-    //     if ($this->getTriggeredEvent() === 'navigationAddToParentAfter') {
-    //         $menu    = &$params['menu'];
-    //         $parents = $params['parents'];
-    //         $child   = $params['child'];
-
-    //         foreach ($exclude as $exPath) {
-    //             if (strpos($exPath, '/')) {
-    //                 $exParents = explode('/', $exPath);
-    //                 $exChild   = array_pop($exParents);
-
-    //                 if (!array_diff($parents, $exParents) && $child === $exChild) {
-    //                     $menu[$child]->setDisplay(false);
-    //                 }
-    //             }
-    //         }
-
-    //     } elseif ($this->getTriggeredEvent() === 'navigationCreatePageMenuAfter') {
-    //         $nav = $params['navigation'];
-
-    //         foreach ($exclude as $exPath) {
-    //             if (!strpos($exPath, '/') && isset($nav->getMenu()[$exPath])) {
-    //                 $nav->getMenu()[$exPath]->setDisplay(false);
-    //             }
-    //         }
-    //     }
-    // }
-
     public function hideInRoot()
     {
         $nav = $this->getParams()['navigation'];
@@ -58,7 +26,7 @@ class NavItemHide
 
     public function hideInChild()
     {
-        $menu    = &$this->getParams()['menu'];
+        $menu    = $this->getParams()['menu'];
         $parents = $this->getParams()['parents'];
         $child   = $this->getParams()['child'];
 
