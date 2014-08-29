@@ -1,15 +1,14 @@
 <?php
 
-namespace mizzenlite\module\OAuthSignIn;
+namespace Module\Strayobject\OAuthSignIn;
 
-use OAuth\OAuth1\Service\Twitter,
-    OAuth\Common\Storage\Session,
-    OAuth\Common\Consumer\Credentials,
-    OAuth\Common\Http\Uri\UriFactory,
-    OAuth\ServiceFactory,
-    Strayobject\Mizzenlite\Base,
-    mizzenlite\module\OAuthSignIn\Attendee
-;
+use OAuth\OAuth1\Service\Twitter;
+use OAuth\Common\Storage\Session;
+use OAuth\Common\Consumer\Credentials;
+use OAuth\Common\Http\Uri\UriFactory;
+use OAuth\ServiceFactory;
+use Strayobject\Mizzenlite\Base;
+use Module\Strayobject\OAuthSignIn\Attendee;
 
 class OAuthSignIn extends Base
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace mizzenlite\module\MetaParser;
+namespace Module\Strayobject\MetaParser;
 
 use Strayobject\Mizzenlite\Base;
 use Strayobject\Mizzenlite\Container;

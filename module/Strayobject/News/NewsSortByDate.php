@@ -1,6 +1,6 @@
 <?php
 
-namespace mizzenlite\module\News;
+namespace Module\Strayobject\News;
 
 use CommonApi\Exception\InvalidArgumentException;
 use Strayobject\Mizzenlite\Page\PageInterface;

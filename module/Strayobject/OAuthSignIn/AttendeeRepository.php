@@ -1,10 +1,9 @@
 <?php
 
-namespace mizzenlite\module\OAuthSignIn;
+namespace Module\Strayobject\OAuthSignIn;
 
-use Strayobject\Mizzenlite\Base,
-    mizzenlite\module\OAuthSignIn\Attendee
-;
+use Strayobject\Mizzenlite\Base;
+use Module\Strayobject\OAuthSignIn\Attendee;
 
 class AttendeeRepository extends Base implements \JsonSerializable
 {

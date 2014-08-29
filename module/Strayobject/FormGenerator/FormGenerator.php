@@ -1,6 +1,6 @@
 <?php
 
-namespace mizzenlite\module\FormGenerator;
+namespace Module\Strayobject\FormGenerator;
 
 use Strayobject\Mizzenlite\Base;
 use Strayobject\Mizzenlite\UriParser;
@@ -48,7 +48,7 @@ class FormGenerator extends Base
                 foreach ($_POST as $key => $value) {
                     $message .= $key.' : '.filter_var($value, FILTER_SANITIZE_STRING)."\n\n";
                 }
-                
+
                 mail('hello@glasgowphp.co.uk', 'New Form Submission', $message);
             } else {
                 $formString = $this->createForm()->render(true);

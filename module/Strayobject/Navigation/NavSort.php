@@ -1,6 +1,6 @@
 <?php
 
-namespace mizzenlite\module\Navigation;
+namespace Module\Strayobject\Navigation;
 
 use Knp\Menu\Util\MenuManipulator;
 use Knp\Menu\ItemInterface;

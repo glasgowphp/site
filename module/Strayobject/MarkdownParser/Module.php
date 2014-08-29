@@ -1,11 +1,11 @@
 <?php
 
-namespace mizzenlite\module\Observers;
+namespace Module\Strayobject\MarkdownParser;
 
 use Strayobject\Mizzenlite\Observer;
 use Michelf\MarkdownExtra;
 
-class MarkdownParserObserver extends Observer
+class Module extends Observer
 {
     public function __construct()
     {

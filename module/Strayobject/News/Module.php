@@ -1,12 +1,12 @@
 <?php
 
-namespace mizzenlite\module\Observers;
+namespace Module\Strayobject\News;
 
 use Strayobject\Mizzenlite\Observer;
-use mizzenlite\module\News\NewsList;
-use mizzenlite\module\News\NewsSortByDate;
+use Module\Strayobject\News\NewsList;
+use Module\Strayobject\News\NewsSortByDate;
 
-class NewsObserver extends Observer
+class Module extends Observer
 {
     private $flagRun;
 

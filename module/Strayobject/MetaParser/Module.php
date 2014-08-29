@@ -1,11 +1,11 @@
 <?php
 
-namespace mizzenlite\module\Observers;
+namespace Module\Strayobject\MetaParser;
 
 use Strayobject\Mizzenlite\Observer;
-use mizzenlite\module\MetaParser\MetaParser;
+use Module\Strayobject\MetaParser\MetaParser;
 
-class MetaParserObserver extends Observer
+class Module extends Observer
 {
     public function __construct()
     {

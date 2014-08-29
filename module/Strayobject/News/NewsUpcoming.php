@@ -1,9 +1,9 @@
 <?php
 
-namespace mizzenlite\module\News;
+namespace Module\Strayobject\News;
 
-use mizzenlite\module\News\NewsSortByDate;
-use mizzenlite\module\News\NewsListInterface;
+use Module\Strayobject\News\NewsSortByDate;
+use Module\Strayobject\News\NewsListInterface;
 
 /**
  * This is experimental functionality

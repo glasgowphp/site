@@ -1,11 +1,11 @@
 <?php
 
-namespace mizzenlite\module\Observers;
+namespace Module\Strayobject\FormGenerator;
 
 use Strayobject\Mizzenlite\Observer;
-use mizzenlite\module\FormGenerator\FormGenerator;
+use Module\Strayobject\FormGenerator\FormGenerator;
 
-class FormGeneratorObserver extends Observer
+class Module extends Observer
 {
     public function __construct()
     {

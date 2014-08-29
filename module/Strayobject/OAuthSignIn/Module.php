@@ -1,16 +1,16 @@
 <?php
 
-namespace mizzenlite\module\Observers;
+namespace Module\Strayobject\OAuthSignIn;
 
 use Strayobject\Mizzenlite\Observer;
-use mizzenlite\module\OAuthSignIn\OAuthSignIn;
-use mizzenlite\module\OAuthSignIn\AttendeeRepository;
-use mizzenlite\module\OAuthSignIn\AttendeeStorage;
-use mizzenlite\module\News\NewsList;
-use mizzenlite\module\News\NewsUpcoming;
+use Module\Strayobject\OAuthSignIn\OAuthSignIn;
+use Module\Strayobject\OAuthSignIn\AttendeeRepository;
+use Module\Strayobject\OAuthSignIn\AttendeeStorage;
+use Module\Strayobject\News\NewsList;
+use Module\Strayobject\News\NewsUpcoming;
 use CommonApi\Exception\RuntimeException;
 
-class OAuthSignInObserver extends Observer
+class Module extends Observer
 {
     public function __construct()
     {

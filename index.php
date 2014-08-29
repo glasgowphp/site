@@ -1,7 +1,7 @@
 <?php
 
-use mizzenlite\module\News\NewsUpcoming;
-use mizzenlite\module\News\NewsList;
+use Module\Strayobject\News\NewsUpcoming;
+use Module\Strayobject\News\NewsList;
 
 $basePath = dir(realpath(__DIR__));
 
@@ -12,7 +12,7 @@ $app->init($basePath);
 /**
  * @todo  remove as temporary
  */
-use mizzenlite\module\MetaParser\MetaParser;
+use Module\Strayobject\MetaParser\MetaParser;
 $app->getBag()->add('metaParser', function () {
     return new MetaParser();
 });
