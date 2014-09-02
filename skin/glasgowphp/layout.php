@@ -79,9 +79,11 @@
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
                     </div>
+                    <!--
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/zend'); ?>
                     </div>
+                    -->
                 </div>
                 <div class="container-box">
                     <h1 class="side-box">Latest on Twitter</h1>
