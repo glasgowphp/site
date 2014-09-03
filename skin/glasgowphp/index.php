@@ -59,6 +59,10 @@ if (!$this->attendees) {
             <a href="https://www.eventbrite.co.uk/e/glasgowphp-monthly-tickets-12868607351">
                 <button>Confirm on Eventbrite</button>
             </a>
+            <br/><br/>
+            <a href="http://www.meetup.com/GlasgowPHP/events/204409692/">
+                <button>Confirm on Meetup</button>
+            </a>
         </div>
         <div class="clear"></div>
     </div>
