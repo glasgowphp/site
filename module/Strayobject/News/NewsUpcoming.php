@@ -29,7 +29,7 @@ class NewsUpcoming
         $today    = new \DateTime();
 
         foreach ($dates as $date) {
-            if (new \DateTime($date) >= $today) {
+            if (new \DateTime($date.' 23:59:59') >= $today) {
                 $upcoming[$date] = $posts[$date];
             }
         }
