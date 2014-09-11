@@ -34,6 +34,11 @@ class NewsUpcoming
             }
         }
 
+        if (!$upcoming) {
+            $post = array_pop($posts);
+            $upcoming[$post->getMeta()->date] = $post;
+        }
+
         $this->getNewsList()->setPosts($upcoming);
     }
 
