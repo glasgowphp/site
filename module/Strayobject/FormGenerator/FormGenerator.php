@@ -82,6 +82,10 @@ class FormGenerator extends Base
                 $params['validation'] = new $validator();
             }
 
+            if (isset($field['options'])) {
+                $options = $field['options'];
+            }
+
             if ($field['type'] == 'text') {
                 $field['type'] = 'textbox';
             } elseif ($field['type'] == 'submit') {
@@ -90,11 +94,13 @@ class FormGenerator extends Base
 
             $element = '\PFBC\Element\\'.ucfirst($field['type']);
 
-            $form->addElement(new $element(
-                $field['label'],
-                $field['name'],
-                $params
-            ));
+            if (isset($options) && !empty($options)) {
+                $el = new $element($field['label'],$field['name'],$options, $params);
+            } else {
+                $el = new $element($field['label'],$field['name'],$params);
+            }
+
+            $form->addElement($el);
         }
 
         return $form;
