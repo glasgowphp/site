@@ -3,5 +3,6 @@ vendor/*
 var/*
 !.gitkeep
 config/*
+!config/forms.json
 !config/*.sample
 *.sublime*
