@@ -1,0 +1,180 @@
+{
+    "becomeaspeaker": {
+        "config": {
+            "method":"post",
+            "action":"",
+            "id":"becomeaspeaker",
+            "resourcesPath":"/vendor/pfbc/pfbc/PFBC/Resources",
+            "formSuccess":"Thank you for your submission, we will be in touch with a confirmation or clarification request soon.",
+            "prevent":{"0":"bootstrap", "1":"jQuery"}
+        },
+        "fields":[
+            {
+                "name":"name",
+                "type":"text",
+                "label":"Name",
+                "attr": {
+                    "required":"1",
+                    "placeholder":"John Smith"
+                }
+            },
+            {
+                "name":"email",
+                "type":"email",
+                "label":"Email",
+                "attr": {
+                    "placeholder":"johnsmith@example.com",
+                    "required":"1"
+                },
+                "validate":"email"
+            },
+            {
+                "name":"twitter",
+                "type":"text",
+                "label":"Twitter",
+                "attr": {
+                    "placeholder":"@JohnSmith"
+                },
+                "validate":"alpha"
+            },
+            {
+                "name":"github",
+                "type":"text",
+                "label":"GitHub",
+                "attr": {
+                    "placeholder":"JohnSmith"
+                },
+                "validate":"alpha"
+            },
+            {
+                "name":"website",
+                "type":"url",
+                "label":"Website",
+                "attr": {
+                    "placeholder":"mywebsite.com"
+                },
+                "validate":"url"
+            },
+            {
+                "name":"idea",
+                "type":"textarea",
+                "label":"Your talk idea",
+                "attr": {
+                    "placeholder":"My talk is about...",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"tshirt-size",
+                "type":"select",
+                "label":"T-shirt size",
+                "attr": {
+                    "required":"1"
+                },
+                "options": {
+                    "":"Select One",
+                    "S":"S",
+                    "M":"M",
+                    "L":"L",
+                    "XL":"XL",
+                    "XXL":"XXL"
+                }
+            },
+            {
+                "name":"submit",
+                "type":"submit",
+                "label":"Submit proposal"
+            }
+        ]
+    },
+    "becomeasponsor": {
+        "config": {
+            "method":"post",
+            "action":"",
+            "id":"becomeasponsor",
+            "resourcesPath":"/vendor/pfbc/pfbc/PFBC/Resources",
+            "formSuccess":"Thank you for your submission, we will be in touch with a confirmation or clarification request soon.",
+            "prevent":{"0":"bootstrap", "1":"jQuery"}
+        },
+        "fields":[
+            {
+                "name":"name",
+                "type":"text",
+                "label":"Name",
+                "attr": {
+                    "placeholder":"John Smith",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"email",
+                "type":"email",
+                "label":"Email",
+                "attr": {
+                    "placeholder":"johnsmith@example.com",
+                    "required":"1"
+                },
+                "validate":"email"
+            },
+            {
+                "name":"message",
+                "type":"textarea",
+                "label":"Message",
+                "attr": {
+                    "placeholder":"",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"submit",
+                "type":"submit",
+                "label":"Send"
+            }
+        ]
+    },
+    "contact": {
+        "config": {
+            "method":"post",
+            "action":"",
+            "id":"contact",
+            "resourcesPath":"/vendor/pfbc/pfbc/PFBC/Resources",
+            "formSuccess":"Thank you for your submission, we will be in touch with a confirmation or clarification request soon.",
+            "prevent":{"0":"bootstrap", "1":"jQuery"}
+        },
+        "fields":[
+            {
+                "name":"name",
+                "type":"text",
+                "label":"Name",
+                "attr": {
+                    "placeholder":"John Smith",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"email",
+                "type":"email",
+                "label":"Email",
+                "attr": {
+                    "placeholder":"johnsmith@example.com",
+                    "required":"1"
+                },
+                "validate":"email"
+            },
+            {
+                "name":"message",
+                "type":"textarea",
+                "label":"Message",
+                "attr": {
+                    "placeholder":"",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"submit",
+                "type":"submit",
+                "label":"Send"
+            }
+        ]
+    }
+}
