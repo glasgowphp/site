@@ -242,6 +242,11 @@ a:hover {
     border-bottom:20px solid rgb(157, 200, 190);
 }
 
+blockquote {
+    font-size:0.9em;
+    color:rgb(240,240,200);
+}
+
 /*************************** NAVBAR *************************
 ************************************************************/
 
@@ -339,7 +344,7 @@ input[type="text"],input[type="email"],input[type="url"],textarea {
 #becomeaspeaker #element_becomeaspeaker-element-5 {
     position: absolute;
     right: 0.625em;
-    bottom: 65px;
+    top: 30px;
     width: 60%;
 }
 

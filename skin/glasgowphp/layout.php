@@ -58,11 +58,29 @@
                     echo '<div class="content-box">';
 
                     if (!isset($this->meta->hideMetaBox) || !$this->meta->hideMetaBox) {
-                        echo '<div class="box-meta">';
-                            echo '<p>Posted on: '.$this->meta->date.'</p>';
-                        echo '</div>';
-                    }
+?>
+                        <div class="box-meta">
+                            <p>Meetup date: <?= $this->meta->date; ?></p>
+                            <p>Speaker:</p>
+                            <ul class="speaker-list">
+<?php
+                            $speakers = json_decode($this->meta->speaker);
 
+                            if (!$speakers) {
+                                $speakers = [];
+                            }
+
+                            foreach ($speakers as $speaker) {
+                                echo '<li>';
+                                    echo '<img src="'.$speaker->image.'"/>';
+                                    echo '<a href="'.$speaker->link.'">'.$speaker->name.'</a>';
+                                echo '</li>';
+                            }
+?>
+                            </ul>
+                        </div>
+<?php
+                    }
                         echo $this->content;
                     echo '</div>';
                 echo '</div>';
