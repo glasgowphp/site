@@ -4,6 +4,12 @@
     } else {
         $speakers = [];
     }
+
+    if (isset($this->meta->attlink)) {
+        $attlink = json_decode($this->meta->attlink);
+    } else {
+        $attlink = stdClass;
+    }
 ?>
 <div class="container-box">
     <h1><?= $this->meta->title; ?></h1>
@@ -51,18 +57,32 @@ if (!$this->attendees) {
         </ul>
         <div class="info">
             <a href="?oauth=go"><button>Confirm via Twitter</button></a>
+<?php
+        if (isset($attlink->otc)) {
+?>
             <br/><br/>
-            <a href="https://opentechcalendar.co.uk/event/1692-monthly-glasgowphp-meetup">
+            <a href="<?= $attlink->otc; ?>">
                 <button>Confirm on <br/>Open Tech Calendar</button>
             </a>
+<?php
+        }
+        if (isset($attlink->eb)) {
+?>
             <br/><br/>
-            <a href="https://www.eventbrite.co.uk/e/glasgowphp-monthly-tickets-12868607351">
+            <a href="<?= $attlink->eb; ?>">
                 <button>Confirm on Eventbrite</button>
             </a>
+<?php
+        }
+        if (isset($attlink->mu)) {
+?>
             <br/><br/>
-            <a href="http://www.meetup.com/GlasgowPHP/events/204409692/">
+            <a href="<?= $attlink->mu; ?>">
                 <button>Confirm on Meetup</button>
             </a>
+<?php
+        }
+?>
         </div>
         <div class="clear"></div>
     </div>
