@@ -8,7 +8,7 @@
     if (isset($this->meta->attlink)) {
         $attlink = json_decode($this->meta->attlink);
     } else {
-        $attlink = stdClass;
+        $attlink = new stdClass;
     }
 ?>
 <div class="container-box">
