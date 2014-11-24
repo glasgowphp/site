@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\MarkdownParser;
 
-use Strayobject\Mizzenlite\Observer;
+use Mizzencms\Core\Observer;
 use Michelf\MarkdownExtra;
 
 class Module extends Observer

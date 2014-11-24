@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\FormGenerator;
 
-use Strayobject\Mizzenlite\Observer;
+use Mizzencms\Core\Observer;
 use Module\Strayobject\FormGenerator\FormGenerator;
 
 class Module extends Observer

@@ -2,9 +2,9 @@
 
 namespace Module\Strayobject\FormGenerator;
 
-use Strayobject\Mizzenlite\Base;
-use Strayobject\Mizzenlite\UriParser;
-use Strayobject\Mizzenlite\Container;
+use Mizzencms\Core\Base;
+use Mizzencms\Core\UriParser;
+use Mizzencms\Core\Container;
 use PFBC\Form;
 
 class FormGenerator extends Base

@@ -7,7 +7,7 @@ use OAuth\Common\Storage\Session;
 use OAuth\Common\Consumer\Credentials;
 use OAuth\Common\Http\Uri\UriFactory;
 use OAuth\ServiceFactory;
-use Strayobject\Mizzenlite\Base;
+use Mizzencms\Core\Base;
 use Module\Strayobject\OAuthSignIn\Attendee;
 
 class OAuthSignIn extends Base

@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\OAuthSignIn;
 
-use Strayobject\Mizzenlite\Observer;
+use Mizzencms\Core\Observer;
 use Module\Strayobject\OAuthSignIn\OAuthSignIn;
 use Module\Strayobject\OAuthSignIn\AttendeeRepository;
 use Module\Strayobject\OAuthSignIn\AttendeeStorage;

@@ -2,8 +2,8 @@
 
 namespace Module\Strayobject\OAuthSignIn;
 
-use Strayobject\Mizzenlite\Base;
-use Strayobject\Mizzenlite\Exception\FileNotFoundException;
+use Mizzencms\Core\Base;
+use Mizzencms\Core\Exception\FileNotFoundException;
 
 class AttendeeStorage extends Base
 {

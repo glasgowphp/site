@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\News;
 
-use Strayobject\Mizzenlite\Base;
+use Mizzencms\Core\Base;
 use Module\Strayobject\News\NewsListInterface;
 /**
  * This is experimental functionality

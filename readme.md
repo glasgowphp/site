@@ -2,13 +2,6 @@
 
 This is a "work in progress" directry of glasgowphp website.
 
-> Please note that [Mizzenlite](https://github.com/strayobject/mizzenlite)
-is not even beta. And code here may and will be changed in a way that will
-break bc.
-> Content of the modules directory will be removed from this repo in the near
-future.
-> You should have no need to use it at the moment.
-
 ###Installation
 ----
 

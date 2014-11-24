@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\Navigation;
 
-use Strayobject\Mizzenlite\Observer;
+use Mizzencms\Core\Observer;
 use Module\Strayobject\Navigation\NavSort;
 use Module\Strayobject\Navigation\NavItemHide;
 

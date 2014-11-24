@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\OAuthSignIn;
 
-use Strayobject\Mizzenlite\Base;
+use Mizzencms\Core\Base;
 
 class Attendee extends Base implements \JsonSerializable
 {

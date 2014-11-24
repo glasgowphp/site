@@ -3,7 +3,7 @@
 namespace Module\Strayobject\News;
 
 use CommonApi\Exception\InvalidArgumentException;
-use Strayobject\Mizzenlite\Page\PageInterface;
+use Mizzencms\Core\Page\PageInterface;
 
 /**
  * This is experimental functionality

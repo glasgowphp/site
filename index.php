@@ -7,7 +7,7 @@ $basePath = dir(realpath(__DIR__));
 
 require $basePath->path.'/vendor/autoload.php';
 
-$app = new Strayobject\Mizzenlite\App();
+$app = new Mizzencms\Core\App();
 $app->init($basePath);
 $app->getBag()->add('newsList', function () {
     return new NewsList();

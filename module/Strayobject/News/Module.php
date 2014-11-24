@@ -2,7 +2,7 @@
 
 namespace Module\Strayobject\News;
 
-use Strayobject\Mizzenlite\Observer;
+use Mizzencms\Core\Observer;
 use Module\Strayobject\News\NewsList;
 use Module\Strayobject\News\NewsSortByDate;
 
