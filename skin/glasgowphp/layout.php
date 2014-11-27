@@ -145,7 +145,5 @@
     </script>
     <noscript><p><img src="http://plainmotif.co.uk/stats/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
-    <script type="text/javascript">var RumID = 4256;</script>
-    <script type="text/javascript" async src="https://ec01c392919812c4f818-79afe539d963810002081e6e2a51e67e.ssl.cf2.rackcdn.com/Embed.js"></script>
 </body>
 </html>
