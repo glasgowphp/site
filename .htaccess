@@ -1,5 +1,8 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
     RewriteCond %{REQUEST_FILENAME} !^(.+)\.(js|css|png|jpg|jpeg|gif|ico|eot|svg|ttf|woff)$
     RewriteRule  .? index.php [L]
 </IfModule>
