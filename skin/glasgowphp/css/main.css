@@ -116,7 +116,7 @@ a:hover {
 .content-box, .box-attendees, .box-location, .box-sponsor {
     padding: 20px;
     background: rgba(10,10,10,0.2);
-    margin: 3% 0;
+    margin: 1.7% 0 3%;
 }
 .content-box {
     text-shadow:0 1px 1px rgba(30, 30, 30, 0.30);

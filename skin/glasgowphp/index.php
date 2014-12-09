@@ -34,6 +34,13 @@
             </ul>
         </div>
         <?= $this->content; ?>
+        <hr/>
+        <strong>
+            Get updates by following 
+            <a href="https://twitter.com/glasgowphp">glasgowphp</a> 
+            or <a href="irc://irc.freenode.net/glasgowphp">join our IRC channel</a>
+            <sup>(<a href="http://webchat.freenode.net/?channels=#glasgowphp">webchat</a>)</sup>
+        </strong>
     </div>
 </div>
 <div class="container-box">
