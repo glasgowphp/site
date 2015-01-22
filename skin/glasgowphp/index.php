@@ -99,7 +99,7 @@ if (!$this->attendees) {
     <h1>Location</h1>
     <h2>Find our venue:</h2>
     <div class="box-location">
-        <p>Top floor of Sir Alwyn Williams Building, 18 Lilybank Gardens, Glasgow, G12 8QQ, Scotland</p>
+        <p>STV TV, Pacific Quay, Glasgow, G51 1PQ, Scotland</p>
         <div id="map" class="map"></div>
     </div>
 </div>
