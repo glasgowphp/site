@@ -12,7 +12,8 @@
     }
 ?>
 <div class="container-box">
-    <h1><?= $this->meta->title; ?></h1>
+    <!--<h1><?= $this->meta->title; ?></h1>-->
+    <h1>Upcoming Meetup</h1>
 <?php if (isset($this->meta->subtitle)) { ?>
     <h2><?= $this->meta->subtitle; ?></h2>
 <?php } ?>
