@@ -101,6 +101,9 @@
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
                     </div>
                     <div class="box-sponsor">
+                        <?= $this->renderContent('sponsors/jetbrains'); ?>
+                    </div>
+                    <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/zend'); ?>
                     </div>
                 </div>
