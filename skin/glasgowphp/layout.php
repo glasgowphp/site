@@ -94,9 +94,9 @@
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/stv'); ?>
                     </div>
-                    <div class="box-sponsor">
+                    <!--<div class="box-sponsor">
                         <?= $this->renderContent('sponsors/inviqa'); ?>
-                    </div>
+                    </div>-->
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
                     </div>
