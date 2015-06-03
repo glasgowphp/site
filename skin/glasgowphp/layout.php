@@ -101,6 +101,9 @@
                         <?= $this->renderContent('sponsors/saltstack'); ?>
                     </div>
                     <div class="box-sponsor">
+                        <?= $this->renderContent('sponsors/digitalocean'); ?>
+                    </div>
+                    <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
                     </div>
                     
