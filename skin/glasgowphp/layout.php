@@ -89,11 +89,15 @@
             </div>
             <div class="content-right">
                 <div class="container-box">
-                    <h1 class="side-box">Our sponsors</h1>
+                    <h1 class="side-box">Event sponsors</h1>
                     <p>Let us know how you could <a href="/becomeasponsor">help the community</a>.</p>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/stv'); ?>
                     </div>
+                    <div class="box-sponsor">
+                        <?= $this->renderContent('sponsors/plainmotif'); ?>
+                    </div>
+                    <h1 class="side-box">Raffle sponsors</h1>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/jetbrains'); ?>
                     </div>
@@ -104,9 +108,8 @@
                         <?= $this->renderContent('sponsors/digitalocean'); ?>
                     </div>
                     <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/plainmotif'); ?>
+                        <?= $this->renderContent('sponsors/vultr'); ?>
                     </div>
-                    
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/zend'); ?>
                     </div>
