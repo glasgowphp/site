@@ -60,7 +60,7 @@
                     if (!isset($this->meta->hideMetaBox) || !$this->meta->hideMetaBox) {
 ?>
                         <div class="box-meta">
-                            <p>Meetup date: <?= $this->meta->date; ?></p>
+                            <p>Meetup date: <?= (new \DateTime($this->meta->date))->format('l, jS \of F'); ?></p>
                             <p>Speaker:</p>
                             <ul class="speaker-list">
 <?php
@@ -92,7 +92,8 @@
                     <h1 class="side-box">Event sponsors</h1>
                     <p>Let us know how you could <a href="/becomeasponsor">help the community</a>.</p>
                     <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/stv'); ?>
+                        <?php //$this->renderContent('sponsors/stv'); ?>
+                        <?= $this->renderContent('sponsors/markup'); ?>
                     </div>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
