@@ -100,7 +100,7 @@ if (!$this->attendees) {
     <h1>Location</h1>
     <h2>Find our venue:</h2>
     <div class="box-location">
-        <p>STV TV, Pacific Quay, Glasgow, G51 1PQ, Scotland</p>
+        <p>Markup Digital, 10 Newton Terrace, Glasgow</p>
         <div id="map" class="map"></div>
     </div>
 </div>
