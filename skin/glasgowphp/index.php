@@ -19,7 +19,7 @@
 <?php } ?>
     <div class="content-box">
         <div class="box-meta">
-            <p>Meetup on: <?= $this->meta->date; ?></p>
+            <p>Meetup on: <?= (new \DateTime($this->meta->date))->format('l, jS \of F'); ?></p>
             <p>Time: <?= $this->meta->time; ?></p>
             <p>Location: <a href="#location">Our venue</a></p>
             <p>Speaker:</p>
