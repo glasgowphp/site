@@ -16,7 +16,7 @@ function mapInit() {
     var mapnik  = new OpenLayers.Layer.OSM();
     var markers = new OpenLayers.Layer.Markers('Markers');
     var zoom    = 17;
-    var lonlat  = new OpenLayers.LonLat(-4.276154, 55.8659087).transform(
+    var lonlat  = new OpenLayers.LonLat(-4.2749712461898, 55.865997252861).transform(
         new OpenLayers.Projection('EPSG:4326'), // transform from WGS 1984
         new OpenLayers.Projection('EPSG:900913') // to Spherical Mercator
     );
