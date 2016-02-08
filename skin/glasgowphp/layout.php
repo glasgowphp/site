@@ -92,8 +92,10 @@
                     <h1 class="side-box">Event sponsors</h1>
                     <p>Let us know how you could <a href="/becomeasponsor">help the community</a>.</p>
                     <div class="box-sponsor">
-                        <?php //$this->renderContent('sponsors/stv'); ?>
                         <?= $this->renderContent('sponsors/markup'); ?>
+                    </div>
+                    <div class="box-sponsor">
+                        <?= $this->renderContent('sponsors/stv'); ?>
                     </div>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/plainmotif'); ?>
