@@ -8,7 +8,16 @@
     if (isset($this->meta->attlink)) {
         $attlink = json_decode($this->meta->attlink);
     } else {
-        $attlink = new stdClass;
+        $attlink = new stdClass();
+    }
+
+    if (isset($this->meta->venue)) {
+        $venue = json_decode($this->meta->venue);
+    } else {
+        $venue = new stdClass();
+        $venue->address = 'Markup Digital, 10 Newton Terrace, Glasgow';
+        $venue->longitude = -4.2749712461898;
+        $venue->latitude =  55.865997252861;
     }
 ?>
 <div class="container-box">
@@ -37,8 +46,8 @@
         <?= $this->content; ?>
         <hr/>
         <strong>
-            Get updates by following 
-            <a href="https://twitter.com/glasgowphp">glasgowphp</a> 
+            Get updates by following
+            <a href="https://twitter.com/glasgowphp">glasgowphp</a>
             or <a href="irc://irc.freenode.net/glasgowphp">join our IRC channel</a>
             <sup>(<a href="http://webchat.freenode.net/?channels=#glasgowphp">webchat</a>)</sup>
         </strong>
@@ -100,7 +109,11 @@ if (!$this->attendees) {
     <h1>Location</h1>
     <h2>Find our venue:</h2>
     <div class="box-location">
-        <p>Markup Digital, 10 Newton Terrace, Glasgow</p>
+        <p><?= $venue->address; ?></p>
+        <script>
+            var venue_lon = <?= $venue->longitude; ?>;
+            var venue_lat = <?= $venue->latitude; ?>;
+        </script>
         <div id="map" class="map"></div>
     </div>
 </div>
