@@ -50,6 +50,7 @@
             <a href="https://twitter.com/glasgowphp">glasgowphp</a>
             or <a href="irc://irc.freenode.net/glasgowphp">join our IRC channel</a>
             <sup>(<a href="http://webchat.freenode.net/?channels=#glasgowphp">webchat</a>)</sup>
+            or <a href="https://slack.scotlandphp.co.uk">join us on ScotlandPHP Slack</a>
         </strong>
     </div>
 </div>
