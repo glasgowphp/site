@@ -215,7 +215,7 @@
                 "type":"text",
                 "label":"Location(town)",
                 "attr": {
-                    "placeholder":"",
+                    "placeholder":"Irvine",
                     "required":"1"
                 }
             },
