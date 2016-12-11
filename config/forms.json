@@ -176,5 +176,55 @@
                 "label":"Send"
             }
         ]
+    },
+    "mattbrunt": {
+        "config": {
+            "method":"post",
+            "action":"",
+            "id":"mattbrunt",
+            "resourcesPath":"/vendor/pfbc/pfbc/PFBC/Resources",
+            "formSuccess":"Thank you for your vote.",
+            "prevent":{"0":"bootstrap", "1":"jQuery"}
+        },
+        "fields":[
+            {
+                "name":"talk",
+                "type":"radio",
+                "label":"Matt's Talk",
+                "attr": {
+                    "placeholder":"John Smith",
+                    "required":"1"
+                },
+                "options": {
+                    "bddbehat": "BEHAVIOUR DRIVEN DEVELOPMENT AND BEHAT: TELLING STORIES THROUGH CODE",
+                    "csp": "CONTENT SECURITY POLICIES: LET'S BREAK STUFF",
+                    "multitennant": "Running multi-tenancy applications"
+                }
+            },
+            {
+                "name":"email",
+                "type":"email",
+                "label":"Email",
+                "attr": {
+                    "placeholder":"johnsmith@example.com",
+                    "required":"1"
+                },
+                "validate":"email"
+            },
+            {
+                "name":"town",
+                "type":"text",
+                "label":"Location(town)",
+                "attr": {
+                    "placeholder":"",
+                    "required":"1"
+                }
+            },
+            {
+                "name":"submit",
+                "type":"submit",
+                "label":"Send"
+            }
+        ]
     }
 }
