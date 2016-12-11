@@ -192,7 +192,6 @@
                 "type":"radio",
                 "label":"Matt's Talk",
                 "attr": {
-                    "placeholder":"John Smith",
                     "required":"1"
                 },
                 "options": {

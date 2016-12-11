@@ -68,6 +68,7 @@ class FormGenerator extends Base
 
         foreach ($currentFormSpec['fields'] as $field) {
             $params = [];
+            $options = [];
 
             if (isset($field['attr'])) {
                 $params = $field['attr'];
