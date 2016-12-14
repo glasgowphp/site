@@ -177,7 +177,7 @@
             }
         ]
     },
-    "mattbrunt": {
+    "proposals/mattbrunt": {
         "config": {
             "method":"post",
             "action":"",
