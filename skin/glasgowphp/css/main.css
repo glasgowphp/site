@@ -221,6 +221,10 @@ a:hover {
     padding: 5px 0;
 }
 
+.box-sponsor img {
+    max-width: 85%;
+}
+
 .clear {
     clear: both;
 }

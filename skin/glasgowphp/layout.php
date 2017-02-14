@@ -97,7 +97,7 @@
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/stv'); ?>
                     </div>
-                    <div class="box-sponsor white">
+                    <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/digirati'); ?>
                     </div>
                     <div class="box-sponsor">
