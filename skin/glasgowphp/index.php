@@ -15,7 +15,7 @@
         $venue = json_decode($this->meta->venue);
     } else {
         $venue = new stdClass();
-        $venue->address = 'Markup Digital, 10 Newton Terrace, Glasgow';
+        $venue->address = 'Markup, 10 Newton Terrace, Glasgow';
         $venue->longitude = -4.2749712461898;
         $venue->latitude =  55.865997252861;
     }
