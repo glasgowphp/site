@@ -216,6 +216,10 @@ a:hover {
     margin-top: 5%;
 }
 
+.box-sponsor.white p {
+    background: rgb(255,255,255);
+}
+
 .clear {
     clear: both;
 }
