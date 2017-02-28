@@ -107,7 +107,7 @@
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/jetbrains'); ?>
                     </div>
-                    <div class="box-sponsor">
+                    <!--<div class="box-sponsor">
                         <?= $this->renderContent('sponsors/saltstack'); ?>
                     </div>
                     <div class="box-sponsor">
@@ -118,7 +118,7 @@
                     </div>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/zend'); ?>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="container-box">
                     <h1 class="side-box">Latest on Twitter</h1>
