@@ -6,3 +6,4 @@ config/*
 !config/forms.json
 !config/*.sample
 *.sublime*
+.idea
