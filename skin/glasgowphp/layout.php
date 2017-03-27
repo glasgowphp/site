@@ -91,18 +91,23 @@
                 <div class="container-box">
                     <h1 class="side-box">Event sponsors</h1>
                     <p>Let us know how you could <a href="/becomeasponsor">help the community</a>.</p>
-                    <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/markup'); ?>
-                    </div>
-                    <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/stv'); ?>
-                    </div>
-                    <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/digirati'); ?>
-                    </div>
-                    <div class="box-sponsor">
-                        <?= $this->renderContent('sponsors/plainmotif'); ?>
-                    </div>
+<?php
+                    $sponsors = [
+                        'sponsors/markup',
+                        'sponsors/stv',
+                        'sponsors/digirati',
+                        'sponsors/plainmotif',
+                        'sponsors/inviqa',
+                        'sponsors/spaces',
+                    ];
+                    shuffle($sponsors);
+
+                    foreach ($sponsors as $sponsor) {
+                        echo '<div class="box-sponsor"';
+                        echo $this->renderContent('sponsors/markup');
+                        echo '</div>';
+                    }
+?>
                     <h1 class="side-box">Raffle sponsors</h1>
                     <div class="box-sponsor">
                         <?= $this->renderContent('sponsors/jetbrains'); ?>
