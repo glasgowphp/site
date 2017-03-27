@@ -104,7 +104,7 @@
 
                     foreach ($sponsors as $sponsor) {
                         echo '<div class="box-sponsor"';
-                        echo $this->renderContent('sponsors/markup');
+                        echo $this->renderContent($sponsor);
                         echo '</div>';
                     }
 ?>
