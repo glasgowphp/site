@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/skin/shared/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="/skin/glasgowphp/css/main.css" rel="stylesheet"/>
     <script src="/skin/shared/js/jquery-2.1.1.min.js"></script>
-    <script src="/skin/glasgowphp/js/OpenLayers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openlayers/2.13.1/OpenLayers.js"></script>
     <script src="/skin/glasgowphp/js/script.js"></script>
 </head>
 <body>
