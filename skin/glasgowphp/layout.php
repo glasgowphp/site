@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="/skin/shared/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="/skin/glasgowphp/css/main.css" rel="stylesheet"/>
     <script src="/skin/shared/js/jquery-2.1.1.min.js"></script>
-    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="/skin/glasgowphp/js/OpenLayers.js"></script>
     <script src="/skin/glasgowphp/js/script.js"></script>
 </head>
 <body>
@@ -151,23 +151,23 @@
         </div>
     </div>
     <script src="/skin/shared/lib/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-      _paq.push(["setCookieDomain", "*.glasgowphp.co.uk"]);
-      _paq.push(["setDomains", ["*.glasgowphp.co.uk"]]);
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://plainmotif.co.uk/stats/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 3]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-        g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="http://plainmotif.co.uk/stats/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.glasgowphp.co.uk"]);
+  _paq.push(["setDomains", ["*.glasgowphp.co.uk"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//stats.plainmotif.co.uk/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '3']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//stats.plainmotif.co.uk/piwik.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </body>
 </html>
