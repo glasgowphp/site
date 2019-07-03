@@ -94,11 +94,8 @@
 <?php
                     $sponsors = [
                         'sponsors/markup',
-                        'sponsors/stv',
-                        'sponsors/digirati',
                         'sponsors/plainmotif',
-                        'sponsors/inviqa',
-                        'sponsors/spaces',
+                        'sponsors/salesagility',
                     ];
                     shuffle($sponsors);
 

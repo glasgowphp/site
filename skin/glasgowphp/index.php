@@ -15,9 +15,9 @@
         $venue = json_decode($this->meta->venue);
     } else {
         $venue = new stdClass();
-        $venue->address = 'Markup, 10 Newton Terrace, Glasgow';
-        $venue->longitude = -4.2749712461898;
-        $venue->latitude =  55.865997252861;
+        $venue->address = 'Markup, Rothesay House, Floor 3, 134 Douglas Street, Glasgow, G2 4HF';
+        $venue->longitude = -4.2629927;
+        $venue->latitude =  55.8651588;
     }
 ?>
 <div class="container-box">
@@ -74,9 +74,9 @@ if (!$this->attendees) {
 ?>
         </ul>
         <div class="info">
-            <a href="?oauth=go"><button>Confirm via Twitter</button></a>
+<!--            <a href="?oauth=go"><button>Confirm via Twitter</button></a>-->
 <?php
-        if (isset($attlink->otc)) {
+        if (isset($attlink->otc) && !empty($attlink->otc)) {
 ?>
             <br/><br/>
             <a href="<?= $attlink->otc; ?>">
@@ -84,7 +84,7 @@ if (!$this->attendees) {
             </a>
 <?php
         }
-        if (isset($attlink->eb)) {
+        if (isset($attlink->eb) && !empty($attlink->eb)) {
 ?>
             <br/><br/>
             <a href="<?= $attlink->eb; ?>">
@@ -92,7 +92,7 @@ if (!$this->attendees) {
             </a>
 <?php
         }
-        if (isset($attlink->mu)) {
+        if (isset($attlink->mu) && !empty($attlink->mu)) {
 ?>
             <br/><br/>
             <a href="<?= $attlink->mu; ?>">
