@@ -96,6 +96,7 @@
                         'sponsors/markup',
                         'sponsors/plainmotif',
                         'sponsors/salesagility',
+                        'sponsors/digitonic',
                     ];
                     shuffle($sponsors);
 
